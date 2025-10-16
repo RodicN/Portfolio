@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rodic Nou — Développeur Fullstack | Portfolio Modern</title>
+    <meta
+      name="description"
+      content="Rodic Nou, développeur web fullstack spécialisé en HTML, CSS, JavaScript, PHP et MySQL. Création de sites vitrines et applications web performantes avec design moderne."
+    />
+    <meta
+      name="keywords"
+      content="développeur web, fullstack, HTML, CSS, JavaScript, PHP, MySQL, portfolio, Toulouse"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rodic Nou — Développeur Fullstack" />
+    <meta
+      property="og:description"
+      content="Portfolio moderne d'un développeur web fullstack basé à Toulouse"
+    />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Floating Background Elements -->
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+    <div class="floating-element"></div>
+
+    <!-- ================================ HEADER ================================ -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="flex flex-between flex-center">
+          <a href="#accueil" class="logo"
+            >Rodic Nou<span class="text-gradient">.</span></a
+          >
+
+          <div class="nav">
+            <a href="#accueil" class="nav-link active">Accueil</a>
+            <a href="#a-propos" class="nav-link">À propos</a>
+            <a href="#competences" class="nav-link">Compétences</a>
+            <a href="#projets" class="nav-link">Projets</a>
+            <a href="#experience" class="nav-link">Expérience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+
+          <div class="flex flex-center">
+            <div
+              class="theme-toggle"
+              id="theme-toggle"
+              aria-label="Changer le thème"
+            ></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ================================ HERO SECTION ================================ -->
+    <section id="accueil" class="hero">
+      <div class="container">
+        <div class="grid grid-2 flex-center">
+          <div class="hero-content animate-in">
+            <h1 class="title-hero">
+              Bonjour, je suis
+              <br><span class="text-gradient text-glow">Rodic Nou</span>
+            </h1>
+            <p
+              class="text-secondary"
+              style="font-size: 1.2rem; margin: 1.5rem 0"
+            >
+              Développeur full-stack, des solutions techniques solides.
+              <br>Une expérience utilisateur claire, orientée résultats.
+              <br>Un site qui ne se contente pas d’exister : il agit.
+            </p>
+            <div class="flex flex-wrap" style="gap: 1rem">
+              <a href="#projets" class="btn btn-primary">
+                <i class="fas fa-rocket"></i>
+                Découvrir mes projets
+              </a>
+              <a href="#contact" class="btn btn-glass">
+                <i class="fas fa-paper-plane"></i>
+                Collaborons ensemble
+              </a>
+              <a href="assets/CV/CV-Rodic-NOU.pdf" download class="btn btn-glass">
+                <i class="fas fa-download"></i>
+                Télécharger mon CV
+              </a>
+            </div>
+          </div>
+
+          <div class="flex flex-center animate-in">
+            <div class="hero-avatar">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ ABOUT SECTION ================================ -->
+    <section id="a-propos" class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <div class="animate-in">
+            <h2 class="title-xl">À propos de moi</h2>
+            <p
+              class="text-secondary"
+              style="font-size: 1.1rem; margin: 1.5rem 0">
+              Développeur web full-stack à Toulouse, je transforme des besoins concrets en solutions web modernes, fiables et évolutives.
+Je pars de l’usage, clarifie les objectifs, puis conçois un parcours fluide, avec un front soigné et un back solide.
+            </p>
+            <p class="text-secondary" style="margin-bottom: 2rem">
+              Mon approche : des choix techniques sobres, du code maintenable, et une amélioration continue guidée par les résultats, performances, engagements, conversions.
+Un bon site ne se contente pas d’exister : il agit, il s’adapte, et il évolue avec vous.
+            <div class="grid grid-2" style="gap: 1rem">
+              <!-- <div
+                class="flex flex-center"
+                style="
+                  background: var(--glass-surface);
+                  padding: 1rem;
+                  border-radius: 10px;
+                "
+              >
+                <div style="text-align: center">
+                  <div class="title-lg text-gradient">3+</div>
+                  <div class="text-secondary">Années d'expérience</div>
+                </div>
+              </div> -->
+              <!-- <div
+                class="flex flex-center"
+                style="
+                  background: var(--glass-surface);
+                  padding: 1rem;
+                  border-radius: 10px;
+                "
+              >
+                <div style="text-align: center">
+                  <div class="title-lg text-gradient">15+</div>
+                  <div class="text-secondary">Projets réalisés</div>
+                </div>
+              </div> -->
+            </div>
+          </div>
+
+          <div class="animate-in">
+            <div class="card" style="text-align: center">
+              <h3 class="title-lg" style="margin-bottom: 1rem">Mes valeurs</h3>
+              <div class="grid" style="gap: 1.5rem">
+                <div>
+                  <i
+                    class="fas fa-lightbulb"
+                    style="
+                      font-size: 2rem;
+                      color: #3b82f6;
+                      margin-bottom: 0.5rem;
+                    "
+                  ></i>
+                  <h4 class="title-md">Innovation</h4>
+                  <p class="text-secondary">
+                    Toujours à l'affût des dernières tendances et technologies
+                  </p>
+                </div>
+                <div>
+                  <i
+                    class="fas fa-heart"
+                    style="
+                      font-size: 2rem;
+                      color: #e11d48;
+                      margin-bottom: 0.5rem;
+                    "
+                  ></i>
+                  <h4 class="title-md">Passion</h4>
+                  <p class="text-secondary">
+                    Chaque projet est une nouvelle aventure créative
+                  </p>
+                </div>
+                <div>
+                  <i
+                    class="fas fa-handshake"
+                    style="
+                      font-size: 2rem;
+                      color: #10b981;
+                      margin-bottom: 0.5rem;
+                    "
+                  ></i>
+                  <h4 class="title-md">Collaboration</h4>
+                  <p class="text-secondary">
+                    Votre succès est ma priorité absolue
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ SKILLS SECTION ================================ -->
+    <section id="competences" class="section">
+      <div class="container">
+        <div class="animate-in" style="text-align: center; margin-bottom: 3rem">
+          <h2 class="title-xl">Mes compétences</h2>
+          <p class="text-secondary" style="font-size: 1.1rem">
+            Une expertise technique complète pour donner vie à vos projets
+          </p>
+        </div>
+
+        <div class="grid grid-auto">
+          <div class="skill-item animate-in">
+            <i class="fab fa-html5 skill-icon" style="color: #e34c26"></i>
+            <h3 class="title-md">HTML / CSS</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="90%"></div>
+            </div>
+            <p class="text-secondary">
+              Structures sémantiques et designs responsives
+            </p>
+          </div>
+
+          <div class="skill-item animate-in">
+            <i class="fab fa-js-square skill-icon" style="color: #f7df1e"></i>
+            <h3 class="title-md">JavaScript</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="75%"></div>
+            </div>
+            <p class="text-secondary">
+              Interactivité et applications dynamiques
+            </p>
+          </div>
+
+          <div class="skill-item animate-in">
+            <i class="fab fa-php skill-icon" style="color: #777bb4"></i>
+            <h3 class="title-md">PHP</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85%"></div>
+            </div>
+            <p class="text-secondary">Développement backend robuste</p>
+          </div>
+
+          <div class="skill-item animate-in">
+            <i class="fas fa-database skill-icon" style="color: #336791"></i>
+            <h3 class="title-md">MySQL</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="80%"></div>
+            </div>
+            <p class="text-secondary">Bases de données optimisées</p>
+          </div>
+
+          <div class="skill-item animate-in">
+            <i class="fab fa-git-alt skill-icon" style="color: #f05032"></i>
+            <h3 class="title-md">Git / GitHub</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="70%"></div>
+            </div>
+            <p class="text-secondary">Contrôle de version et collaboration</p>
+          </div>
+
+          <div class="skill-item animate-in">
+            <i class="fas fa-mobile-alt skill-icon" style="color: #06b6d4"></i>
+            <h3 class="title-md">Responsive Design</h3>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85%"></div>
+            </div>
+            <p class="text-secondary">Interfaces adaptatives multi-écrans</p>
+          </div>
+        </div>
+
+        <!-- Outils & Technologies -->
+        <div class="animate-in" style="margin-top: 3rem">
+          <h3 class="title-lg" style="text-align: center; margin-bottom: 2rem">
+            Outils & Technologies
+          </h3>
+          <div class="flex flex-wrap flex-center" style="gap: 1rem">
+            <div class="tech-tag">Visual Studio Code</div>
+            <div class="tech-tag">XAMPP</div>
+            <div class="tech-tag">phpMyAdmin</div>
+            <div class="tech-tag">Figma</div>
+            <div class="tech-tag">SEO</div>
+            <div class="tech-tag">Architecture MVC</div>
+            <div class="tech-tag">JAVA</div>
+            <div class="tech-tag">Python</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ PROJECTS SECTION 3D ================================ -->
+    <section id="projets" class="section">
+      <div class="container">
+        <div class="animate-in" style="text-align: center; margin-bottom: 3rem">
+          <h2 class="title-xl">Mes réalisations</h2>
+          <p class="text-secondary" style="font-size: 1.1rem">
+            Découvrez une sélection de projets qui illustrent mon savoir-faire
+          </p>
+        </div>
+
+        <!-- 3D Perspective Carousel Container -->
+        <div class="projects-carousel-3d">
+          <button
+            class="carousel-3d-btn carousel-3d-btn-prev"
+            aria-label="Projet précédent"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="carousel-3d-viewport">
+            <div class="carousel-3d-container" id="carousel-3d-container">
+              <!-- Project 1 -->
+              <div class="project-3d-slide" data-index="0">
+                <div class="project-card">
+                  <div class="project-image">
+                    <i class="fas fa-calendar-alt"></i>
+                  </div>
+                  <div class="project-content">
+                    <h3 class="title-md" style="margin-bottom: 0.5rem">
+                      Gestion des immersions
+                    </h3>
+                    <p class="text-secondary" style="margin-bottom: 1rem">
+                      Application complète de gestion avec système de
+                      calendrier, gestion des disponibilités et formulaires
+                      interactifs.
+                    </p>
+                    <div class="tech-stack">
+                      <div class="tech-tag">HTML5</div>
+                      <div class="tech-tag">CSS3</div>
+                      <div class="tech-tag">JavaScript</div>
+                      <div class="tech-tag">PHP</div>
+                      <div class="tech-tag">MySQL</div>
+                    </div>
+                    <div style="margin-top: 1.5rem">
+                      <a
+                        href="gestion-immersions.html"
+                        class="btn btn-glass"
+                        style="width: 100%; justify-content: center"
+                      >
+                        <i class="fas fa-eye"></i>
+                        Voir le projet
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="project-3d-slide" data-index="1">
+                <div class="project-card">
+                  <div
+                    class="project-image"
+                    style="
+                      background: linear-gradient(135deg, #10b981, #059669);
+                    "
+                  >
+                    <i class="fas fa-utensils"></i>
+                  </div>
+                  <div class="project-content">
+                    <h3 class="title-md" style="margin-bottom: 0.5rem">
+                      La Paillote
+                    </h3>
+                    <p class="text-secondary" style="margin-bottom: 1rem">
+                      Site vitrine moderne et responsive pour un restaurant,
+                      avec design élégant et navigation intuitive.
+                    </p>
+                    <div class="tech-stack">
+                      <div class="tech-tag">HTML5</div>
+                      <div class="tech-tag">CSS3</div>
+                      <div class="tech-tag">JavaScript</div>
+                      <div class="tech-tag">PHP</div>
+                      <div class="tech-tag">MySQL</div>
+                    </div>
+                    <div style="margin-top: 1.5rem">
+                      <a
+                        href="la-paillote.html"
+                        class="btn btn-glass"
+                        style="width: 100%; justify-content: center"
+                      >
+                        <i class="fas fa-eye"></i>
+                        Voir le projet
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="project-3d-slide" data-index="2">
+                <div class="project-card">
+                  <div
+                    class="project-image"
+                    style="
+                      background: linear-gradient(135deg, #ef4444, #dc2626);
+                    "
+                  >
+                    <i class="fas fa-dumbbell"></i>
+                  </div>
+                  <div class="project-content">
+                    <h3 class="title-md" style="margin-bottom: 0.5rem">
+                      My Coach
+                    </h3>
+                    <p class="text-secondary" style="margin-bottom: 1rem">
+                      <!-- Site vitrine pour coach sportif présentant son profil, ses
+                      services et les séances qu'il propose. -->
+                      En construction
+                    </p>
+                    <div class="tech-stack">
+                      <div class="tech-tag">HTML5</div>
+                      <div class="tech-tag">CSS3</div>
+                      <div class="tech-tag">JavaScript</div>
+                      <div class="tech-tag">PHP</div>
+                      <div class="tech-tag">MySQL</div>
+                    </div>
+                    <div style="margin-top: 1.5rem">
+                      <a
+                        href="#"
+                        class="btn btn-glass"
+                        style="width: 100%; justify-content: center"
+                      >
+                        <i class="fas fa-eye"></i>
+                        Voir le projet
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button
+            class="carousel-3d-btn carousel-3d-btn-next"
+            aria-label="Projet suivant"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+          <!-- Progress Bar -->
+          <div class="carousel-3d-progress">
+            <div class="progress-3d-bar" id="progress-bar"></div>
+          </div>
+        </div>
+
+        <div class="animate-in" style="text-align: center; margin-top: 3rem">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-rocket"></i>
+            Créons votre projet ensemble
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ EXPERIENCE SECTION ================================ -->
+    <section id="experience" class="section">
+      <div class="container">
+        <!-- En-tête de section -->
+        <div class="animate-in" style="text-align: center; margin-bottom: 3rem">
+          <h2 class="title-xl">
+            Mon <span class="text-gradient">parcours</span>
+          </h2>
+          <p
+            style="
+              font-size: 1.1rem;
+              color: var(--text-secondary);
+              margin-top: 1rem;
+            "
+          >
+            Une progression constante vers l'excellence technique
+          </p>
+        </div>
+
+        <!-- Contrôles de filtrage -->
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">
+            <i class="fas fa-th"></i>
+            Tout afficher
+          </button>
+          <button class="filter-btn" data-filter="formation">
+            <i class="fas fa-graduation-cap"></i>
+            Formations
+          </button>
+          <button class="filter-btn" data-filter="experience">
+            <i class="fas fa-briefcase"></i>
+            Expériences
+          </button>
+          <button class="sort-btn" id="sort-btn" title="Trier par date">
+            <i class="fas fa-sort" id="sort-icon"></i>
+          </button>
+        </div>
+
+        <!-- Timeline des expériences -->
+        <div class="timeline" id="timeline">
+          <!-- Formation 1 -->
+          <!-- <div
+            class="timeline-item"
+            data-type="formation"
+            data-date="2024"
+            data-title="Formation — Ingénierie du Web"
+          >
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="title-md">Formation — Ingénierie du Web</h3>
+                </div>
+                <span class="type-badge formation">
+                  <i class="fas fa-graduation-cap"></i>
+                  2024
+                </span>
+              </div>
+              <p class="card-content">
+                Spécialisation en développement web avec focus sur Linux,
+                Python, bases de données MySQL et bonnes pratiques du
+                développement. Formation complète couvrant l'architecture
+                logicielle et les méthodologies modernes.
+              </p>
+              <div class="tech-stack">
+                <div class="tech-tag">Linux</div>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">MySQL</div>
+                <div class="tech-tag">DevOps</div>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Expérience 1 -->
+          <div
+            class="timeline-item"
+            data-type="experience"
+            data-date="2024"
+            data-title="Stagiaire — Développeur Fullstack"
+          >
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="title-md">Stagiaire — Développeur Fullstack</h3>
+                </div>
+                <span class="type-badge experience">
+                  <i class="fas fa-briefcase"></i>
+                  2024
+                </span>
+              </div>
+              <p class="card-content">
+                J’ai conçu une application web dédiée à la gestion des périodes d’immersion : les professeurs y déposent leurs disponibilités, les élèves demandent une place sur les sessions ouvertes, et l’administration coordonne tout depuis un planning unique.
+                <br>But : simplifier l’organisation, gagner du temps et éviter les conflits.
+              </p>
+              <div class="tech-stack">
+                <div class="tech-tag">HTML5</div>
+                <div class="tech-tag">CSS3</div>
+                <div class="tech-tag">JavaScript</div>
+                <div class="tech-tag">PHP</div>
+                <div class="tech-tag">MySQL</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Expérience 2 -->
+          <div
+            class="timeline-item"
+            data-type="experience"
+            data-date="2023"
+            data-title="Stagiaire — Développeur Web"
+          >
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="title-md">Stagiaire — Développeur full-stack</h3>
+                </div>
+                <span class="type-badge experience">
+                  <i class="fas fa-briefcase"></i>
+                  2023
+                </span>
+              </div>
+              <p class="card-content">
+                Un site de restaurant pensé pour servir le client comme la salle.
+                <br>Parcours limpide, design responsive et signaux visuels soignés pour capter l’attention.
+                <br>Résultat : une expérience agréable, crédible et persuasive qui transforme la visite en réservation.
+              </p>
+              <div class="tech-stack">
+                <div class="tech-tag">HTML</div>
+                <div class="tech-tag">CSS</div>
+                <div class="tech-tag">JavaScript</div>
+                <div class="tech-tag">PHP</div>
+                <div class="tech-tag">MySQL</div>
+                <div class="tech-tag">SEO</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formation 2 -->
+          <div
+            class="timeline-item"
+            data-type="formation"
+            data-date="2022"
+            data-title="Diplôme — Développement Web"
+          >
+            <div class="card">
+              <div class="card-header">
+                <div>
+                  <h3 class="title-md">BTS SIO — option SLAM </h3>
+                </div>
+                <span class="type-badge formation">
+                  <i class="fas fa-graduation-cap"></i>
+                  2022-2024
+                </span>
+              </div>
+              <p class="card-content">
+                Du besoin métier à l’application en production.
+                <br>Deux ans à transformer des problèmes concrets en solutions utilisables : recueil du besoin, modélisation Merise/UML, développement full-stack, tests, déploiement et prise en main utilisateur.
+                <br>Objectif constant : livrer des apps utiles, maintenables et robustes — pas seulement “qui marchent”, mais qui tiennent dans le temps.
+              </p>
+              <div class="tech-stack">
+                <div class="tech-tag">Développement web</div>
+                <div class="tech-tag">Base de données</div>
+                <div class="tech-tag">HTML</div>
+                <div class="tech-tag">CSS</div>
+                <div class="tech-tag">JavaScript</div>
+                <div class="tech-tag">PHP</div>
+                <div class="tech-tag">MySQL</div>
+                <div class="tech-tag">Java</div>
+                <div class="tech-tag">Python</div>
+                <div class="tech-tag">Git</div>
+                <div class="tech-tag">GitHub</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================ CONTACT SECTION ================================ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <!-- En-tête simple -->
+        <div class="contact-header animate-in">
+          <h2 class="title-xl">
+            Travaillons <span class="text-gradient">ensemble</span>
+          </h2>
+          <p>Une idée de projet ? Parlons-en et donnons-lui vie !</p>
+        </div>
+
+        <!-- Informations de contact -->
+        <div class="contact-info animate-in">
+          <a href="mailto:rodic.nou@gmail.com" class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>rodic.nou@gmail.com</span>
+          </a>
+
+          <a href="#" class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <!-- <a href="#" class="contact-item">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a> -->
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Toulouse, France</span>
+          </div>
+        </div>
+
+        <!-- Formulaire simple -->
+        <form class="contact-form animate-in" id="contact-form" action="https://formspree.io/f/xldwqoao" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label">Nom</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-input"
+              placeholder="Votre nom"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="votre.email@exemple.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-textarea"
+              placeholder="Décrivez votre projet..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn" id="submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            <span>Envoyer</span>
+          </button>
+
+          <div class="status-message success" id="success-message">
+            Merci ! Je vous répondrai rapidement.
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ================================ FOOTER ================================ -->
+    <footer
+      class="section"
+      style="padding: 2rem 0; border-top: 1px solid var(--glass-border)"
+    >
+      <div class="container">
+        <div class="flex flex-between flex-center">
+          <p class="text-secondary">
+            &copy; 2024 Rodic Nou. Tous droits réservés.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

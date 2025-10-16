@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gestion des Immersions — Projet | Rodic Nou</title>
+  <meta name="description" content="Application web de gestion des périodes d'immersion pour le Lycée Ozenne : gestion des disponibilités des filières et des demandes des élèves." />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/project.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="project-header">
+    <div class="container">
+      <nav class="back-nav">
+        <a href="index.html#projets" class="back-btn">
+          <i class="fas fa-arrow-left" aria-hidden="true"></i>
+          Retour aux projets
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="project-hero">
+    <div class="container">
+      <h1 class="project-title">Gestion des Périodes d'Immersion</h1>
+      <p class="project-subtitle">
+        Application web pour le <strong>Lycée Ozenne</strong> permettant de
+        gérer les disponibilités des filières, les sessions d’immersion et les demandes des élèves
+        via une interface simple et claire.
+      </p>
+
+      <div class="project-meta">
+        <div class="meta-item">
+          <i class="fas fa-school"></i>
+          <span>Établissement scolaire</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-calendar-alt"></i>
+          <span>2024–2025</span>
+        </div>
+        <div class="meta-item">
+          <i class="fas fa-tag"></i>
+          <span>Application Web</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="project-content">
+
+      <!-- Overview -->
+      <section class="content-section">
+        <h2 class="section-title">Contexte & Enjeux</h2>
+        <div class="section-content">
+          <p>
+            Le Lycée Ozenne souhaitait moderniser l’organisation des périodes d’immersion.
+            Jusqu’ici, la coordination reposait sur des échanges manuels entre professeurs, élèves et
+            personnel administratif, rendant le processus chronophage et source d’erreurs.
+          </p>
+          <p style="margin-top:1rem;">
+            L’application centralise les informations clés : disponibilités des filières,
+            sessions proposées et demandes des élèves, afin de fluidifier la planification
+            et d’offrir une meilleure visibilité à tous les acteurs.
+          </p>
+        </div>
+      </section>
+
+      <!-- Objectives / Features -->
+      <section class="content-section">
+        <h2 class="section-title">Objectif & Fonctionnalités</h2>
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-calendar-check" aria-hidden="true"></i></div>
+            <div>
+              <strong>Gestion des disponibilités</strong>
+              <p class="muted">Les professeurs déclarent les créneaux disponibles par filière et par session.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-user-graduate" aria-hidden="true"></i></div>
+            <div>
+              <strong>Demandes des élèves</strong>
+              <p class="muted">Saisie guidée des vœux d’immersion, suivi du statut (en attente, validé, refusé).</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-diagram-project" aria-hidden="true"></i></div>
+            <div>
+              <strong>Vue administrative</strong>
+              <p class="muted">Tableau de bord pour affecter, valider et communiquer.</p>
+            </div>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon"><i class="fas fa-bell" aria-hidden="true"></i></div>
+            <div>
+              <strong>Notifications</strong>
+              <p class="muted">Emails automatiques pour confirmations et rappels (élèves & professeurs).</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Stack -->
+      <section class="content-section">
+        <h2 class="section-title">Stack Technique</h2>
+        <div class="tech-grid">
+          <div class="tech-item"><i class="fab fa-html5" aria-hidden="true"></i><div>HTML5</div></div>
+          <div class="tech-item"><i class="fab fa-css3-alt" aria-hidden="true"></i><div>CSS3</div></div>
+          <div class="tech-item"><i class="fab fa-js" aria-hidden="true"></i><div>JavaScript</div></div>
+          <div class="tech-item"><i class="fab fa-php" aria-hidden="true"></i><div>PHP</div></div>
+          <div class="tech-item"><i class="fas fa-database" aria-hidden="true"></i><div>MySQL</div></div>
+        </div>
+        <div class="section-content" style="margin-top:1.5rem;">
+          <p>
+            Côté serveur en PHP avec MySQL pour la persistance (sessions, demandes, utilisateurs, disponibilités).
+            Rôles et permissions (élève, professeur, administrateur).
+          </p>
+        </div>
+      </section>
+
+      <!-- Role -->
+      <section class="content-section">
+        <h2 class="section-title">Mon Rôle & Livrables</h2>
+        <div class="section-content">
+          <p><strong>Rôle : Développeur Fullstack</strong></p>
+          <ul style="list-style:none; padding:0; margin-top:0.75rem;">
+            <li style="padding:0.5rem 0; padding-left:1.5rem; position:relative;">
+              <i class="fas fa-check" style="position:absolute; left:0;"></i>
+              Conception UX des parcours (professeur, élève, admin)
+            </li>
+            <li style="padding:0.5rem 0; padding-left:1.5rem; position:relative;">
+              <i class="fas fa-check" style="position:absolute; left:0;"></i>
+              Implémentation du backend (CRUD, règles métiers, rôles)
+            </li>
+            <li style="padding:0.5rem 0; padding-left:1.5rem; position:relative;">
+              <i class="fas fa-check" style="position:absolute; left:0;"></i>
+              Intégration frontend responsive & composants d’interface
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Visuals -->
+      <section class="content-section">
+        <h2 class="section-title">Aperçus Visuels</h2>
+        <div class="project-gallery">
+          <!-- Remplace les noms de fichiers par les tiens si nécessaire -->
+          <div class="gallery-item">
+            <img src="assets/images/projects/gestion-immersion/Calendrier.webp" alt="Planning des sessions d'immersion" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/projects/gestion-immersion/Formulaire-gestion-calendrier.webp" alt="Formulaire ge gestion du calendrier" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/projects/gestion-immersion/Formulaire-disponibilite.webp" alt="Formulaire de gestion des disponibilités professeurs" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/projects/gestion-immersion/Formulaire-demande-immersion.webp" alt="Formulaire de demande d'immersion élève" loading="lazy">
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/projects/gestion-immersion/Formulaire-modification-immersion.webp" alt="Formulaire de modification des immersions" loading="lazy">
+          </div>
+        </div>
+        <p class="muted" style="text-align:center; margin-top:1rem; font-size:.9rem;">
+          Captures d’écran ou maquettes disponibles sur demande.
+        </p>
+      </section>
+
+      <!-- Outcomes -->
+      <section class="content-section">
+        <h2 class="section-title">Résultats & Bénéfices</h2>
+        <div class="results-grid">
+          <div class="result-card"><div class="result-number">Centralisation</div><div class="result-label">Données unifiées et à jour</div></div>
+          <div class="result-card"><div class="result-number">Gain de temps</div><div class="result-label">Moins d’allers-retours administratifs</div></div>
+          <div class="result-card"><div class="result-number">Traçabilité</div><div class="result-label">Historique des demandes & décisions</div></div>
+          <div class="result-card"><div class="result-number">Clarté</div><div class="result-label">Parcours distincts élève/prof/admin</div></div>
+        </div>
+        <div class="section-content" style="margin-top:2rem;">
+          <p>
+            L’équipe dispose désormais d’un outil unique pour planifier, recueillir et valider les immersions.
+            Le personnel administratif suit l’avancement en temps réel, tandis que les professeurs et les élèves
+            interagissent via des interfaces adaptées à leurs besoins.
+          </p>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- CTA -->
+    <section class="project-cta">
+      <h2 class="section-title">Un besoin similaire ?</h2>
+      <p style="color: var(--text-secondary); max-width: 600px; margin: 1rem auto;">
+        Parlons de votre contexte et concevons un outil qui simplifie vraiment votre organisation.
+      </p>
+      <div class="cta-buttons">
+        <a href="index.html#contact" class="btn btn-primary">
+          <i class="fas fa-paper-plane" aria-hidden="true"></i>
+          Me contacter
+        </a>
+        <a href="index.html#projets" class="btn btn-secondary">
+          <i class="fas fa-arrow-left" aria-hidden="true"></i>
+          Voir tous les projets
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
